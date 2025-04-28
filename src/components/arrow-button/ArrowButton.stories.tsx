@@ -13,7 +13,12 @@ export const ArrowButtonStory: Story = {
 	render: () => {
 		return (
 			<>
-				<ArrowButton />
+				<ArrowButton
+					setIsSidebarOpen={(newValue: boolean) => {
+						throw new Error('Function not implemented.');
+					}}
+					isSidebarOpen={false}
+				/>
 			</>
 		);
 	},

@@ -25,6 +25,13 @@
   background-color: #fff;
 }
 
+.formContent {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  height: 100%;
+}
+
 .bottomContainer {
   display: flex;
   justify-content: space-between;
